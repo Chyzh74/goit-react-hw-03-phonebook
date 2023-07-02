@@ -1,12 +1,18 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(35 200 229 / 15%);
+  font-size: 14px;
+  font-weight: 400;
+
+  background: linear-gradient(211deg, rgb(24, 20, 75) 0%, rgba(172, 171, 224, 0.733) 39%, rgb(163, 204, 216) 57%, rgb(216, 253, 215) 73%, rgb(255, 255, 255) 100%) no-repeat fixed;
+
+  /* background: url(https://pixabay.com/get/g4a602d9a40b2526333d20578670a3f9dc7adada29829fc0b4264fbb31115f5b6f51b4782adee670ec9532d7ebf03b544daefec81d00d184a7d0192220935ae30_1280.jpg) center center / cover no-repeat fixed; */
+  
 }
 
 code {
